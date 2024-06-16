@@ -688,8 +688,8 @@ select:visited {
 
 .apbc-sidebar-btn a:hover,
 .apbc-mobile-menu-open a:hover {
-  background-color: transparent;
-  border: 2px solid #fecc00;
+  background-color: #fff;
+  border: 2px solid #fff;
   color: #000625;
 }
 
@@ -1477,8 +1477,8 @@ footer{
 .volunteer-section a{border-radius: 10px; background-color: #f8c301; padding:15px; color: #000; text-transform: uppercase;
 font-size: 17px; line-height: 24px; border: none; font-weight: 900; margin-top:2%; display:inline-block}
 
-
 .english-translator{ background:#FFF; padding:2px 15px; display:inline-block; border-radius: 10px;}
+.english-translator-mob{ display:none;}
 
 @media (min-width: 320px) and (max-width: 769px) {
 
@@ -1526,6 +1526,8 @@ padding-right: 0%; padding-bottom:3%;}
 
 .mission-head { text-align:center;}
 .mission-section p{ text-align:center; padding-right:0px;}
+
+.highlights-item{ height:auto; margin-bottom:20px;}
 
 .footer-social{ margin-top:20px;}
 .english-translator{ background:#FFF; padding:2px 15px !important; display:inline-block; border-radius: 10px;}
